@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imagens/fundo.jpg");
+    font-family: 'Fredoka One', cursive;
+  }
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  canvas{
+    position: relative;
+    border: solid 2px black;
+    border-radius: 10px;
+  }
+
+  .principal{
+    width: 100%;
+  }
+
+  .principal-titulo{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .som{
+    position: absolute;
+    z-index: 100;
+    margin-top: 475px;
+    margin-left: 650px;
+ 
+  }
+
+  .som-imagem{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .play{
+    position: absolute;
+    z-index: 100;
+    margin-top: 475px;
+    margin-right: 650px;
+ 
+  }
+
+  .play-imagem{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .comecar{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+  }
+
+  .comecar-imagem{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+  }
+
+  .comecar-imagem:hover{
+    width: 290px;
+    height: 170px;
+    transition: .5s;
+  }
+
+  .intrucoes{
+    background-color: white;
+    margin: 50px 100px;
+    border-radius: 10px;
+    border: solid 2px black;
+    padding: 25px;
+  }
+
+  .intrucoes-paragrafo{
+    color: rgb(70, 69, 69);
+    text-align: justify;
+  }
+
+  .intrucoes-jogar{
+    color: rgb(70, 69, 69);
+    text-align: justify;
+    
+  }
+
+  .intrucoes-versao{
+    color: red;
+    font-size: 14px;
+  }
