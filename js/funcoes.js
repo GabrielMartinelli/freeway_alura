@@ -1,33 +1,32 @@
 const comecarJogo = document.getElementById("comecarId");
 const som = document.getElementById("somId");
-const pausarJogo = document.getElementById("playId");
+const pause = document.getElementById("playId");
 
 let ativaSom = 1;
 let executar = 1;
 
-comecarJogo.addEventListener("click", (evento) =>{
+comecarJogo.addEventListener("click",  (evento) =>{
     somDaTrilha.loop();
     comecarJogo.style.display = "none"
     ativaSom = 0;
     executar = 0;
+
+    document.addEventListener("keydown",  (evento) =>{
+        if (evento.code === "Enter" || evento.code === "NumpadEnter" ){
+            pausarJogo();
+        }
+    })
+    
+    som.addEventListener("click", (evento) =>{
+        pausarSom();
+    })
+    
+    pause.addEventListener("click", (evento) =>{
+        pausarJogo();  
+    })
 })
 
-som.addEventListener("click", (evento) =>{
-    pausarSom();
-})
 
-pausarJogo.addEventListener("click", (evento) =>{
-    if (executar == 0){
-        pausarJogo.setAttribute('src', './/imagens/play.png')
-        pausarSom();
-        executar = 1;
-        
-    }else{
-        pausarJogo.setAttribute('src', './/imagens/pausa.png')
-        pausarSom();
-        executar = 0
-    }
-})
 
 function pausarSom(){
     if (ativaSom == 0){
@@ -44,5 +43,15 @@ function pausarSom(){
         somDaColisao.play();
         somDoPonto.play();
     }
+}
 
+function pausarJogo(){
+    if (executar == 0){
+        pause.setAttribute('src', './/imagens/play.png')
+        executar = 1;
+        
+    }else{
+        pause.setAttribute('src', './/imagens/pausa.png')
+        executar = 0   
+    }
 }
