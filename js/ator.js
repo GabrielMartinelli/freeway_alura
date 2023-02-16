@@ -13,7 +13,7 @@ function mostraAtor(){
 
 function movimentaAtor(){
 
-//Movimentar Ator 1
+//Movimentar Personagem 1
         if(keyIsDown(87)){
             yAtor -= 3;
         }
@@ -36,7 +36,7 @@ function movimentaAtor(){
             }
         }
 
-//Movimentar Ator 2
+//Movimentar Personagem 2
         if(keyIsDown(UP_ARROW)){
             yAtor2 -= 3;
         }
