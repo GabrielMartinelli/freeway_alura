@@ -1,7 +1,7 @@
 <h1 align="center">Freeway Grandparents</h1>
 
 # Sobre o projeto
-Freeway Grandparents é uma cópia do jogo eletrônico Freeway do console Atari 2600. O jogo base foi desenvolvido no curso "Lógica de programação: laços e listas com JavaScript" ministrado pelo professor Guilherme Lima na plataforma Alura, posteriormente fui adicionando novas funcionalidades, como:
+Freeway Grandparents é uma cópia do jogo eletrônico Freeway do console Atari 2600. O jogo base foi desenvolvido no curso "Lógica de programação: laços e listas com JavaScript" ministrado pelo professor <a href="https://www.linkedin.com/in/guilherme-lima-developer/">Guilherme Lima</a> na plataforma Alura, posteriormente fui adicionando novas funcionalidades, como:
 
 * Botão de start;
 * Botão de pausar o jogo;
