@@ -60,8 +60,8 @@ function movimentaAtor(){
 function verificaColissao(){
     for (let i =0; i < imagemCarros1.length; i++){
         //colisão ator 1
-        colisao = collideRectCircle(xCarros1[i], yCarros1[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15)
-        colisao2 = collideRectCircle(xCarros2[i], yCarros2[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15)
+        colisao = collideRectCircle(xCarros1[i], yCarros1[i], comprimentoCarro, alturaCarro, (xAtor+15), (yAtor+15), 28)
+        colisao2 = collideRectCircle(xCarros2[i], yCarros2[i], comprimentoCarro, alturaCarro, (xAtor+15), (yAtor+15), 28)
         
         if(colisao || colisao2){
             if (ativaSom == 0){
@@ -78,8 +78,8 @@ function verificaColissao(){
         }
 
         //colisão ator 2
-        colisao3 = collideRectCircle(xCarros1[i], yCarros1[i], comprimentoCarro, alturaCarro, xAtor2, yAtor2, 15)
-        colisao4 = collideRectCircle(xCarros2[i], yCarros2[i], comprimentoCarro, alturaCarro, xAtor2, yAtor2, 15)
+        colisao3 = collideRectCircle(xCarros1[i], yCarros1[i], comprimentoCarro, alturaCarro, (xAtor2+15), (yAtor2+15), 28)
+        colisao4 = collideRectCircle(xCarros2[i], yCarros2[i], comprimentoCarro, alturaCarro, (xAtor2+15), (yAtor2+15), 28)
         
         if(colisao3 || colisao4){
             if (ativaSom == 0){
