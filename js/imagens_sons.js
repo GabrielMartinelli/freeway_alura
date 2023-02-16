@@ -17,8 +17,6 @@ let somDaTrilha;
 let somDaColisao;
 let somDoPonto;
 
-let play;
-let pause;
 
 function preload(){
     imagemDaEstrada = loadImage("../imagens/estrada.png");
