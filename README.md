@@ -12,9 +12,9 @@ Freeway Grandparents é uma cópia do jogo eletrônico Freeway do console Atari 
 * Novos personagem e novos carros;
 * Um novo design de apresentação;
 
-🔽 **Clique <a href="https://github.com/GabrielMartinelli/freeway_copy.git">aqui</a> para baixar o projeto.**
+🔽 **Clique <a href="https://github.com/GabrielMartinelli/freeway_copy.git" target="_blank">aqui</a> para baixar o projeto.**
 
-💻 📱 **Clique <a href="https://freeway-copy.vercel.app/">aqui</a> para acessar o deploy.**
+💻 📱 **Clique <a href="https://freeway-copy.vercel.app/" target="_blank">aqui</a> para acessar o deploy.**
 
 
 ## Layout web
@@ -35,5 +35,5 @@ Freeway Grandparents é uma cópia do jogo eletrônico Freeway do console Atari 
 
 Gabriel Martinelli
 
-https://www.linkedin.com/in/gabriel-martinelli/
+<a href="https://www.linkedin.com/in/gabriel-martinelli" target="_blank"> Linkedin </a>
 
